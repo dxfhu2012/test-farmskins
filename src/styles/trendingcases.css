@@ -1,0 +1,118 @@
+.wrp-tc{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+.garis{
+    background: linear-gradient(to right, #1c1e26,  #ecc214); 
+    height: 1px;
+}
+.garisgaris{
+    margin: 0;
+    width: 250px;
+    padding: 0;
+}
+.img-garis{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.txt-cases{
+    color: #cce2ff ;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.wrp-sj2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -20px;
+    background-image: url('../images/background/bg2.png');
+    background-repeat: no-repeat;
+  }
+  .sj2-1{
+    background-image: url('../images/senjata2/bgsj2/bgsj1.png');
+    background-repeat: no-repeat;
+    margin: auto;
+  }
+  .sj2-1:hover{
+    background-color: #1e1e20;
+  }
+  .sj2-2{
+    background-image: url('../images/senjata2/bgsj2/bgs2.png');
+    background-repeat: no-repeat;
+    margin: auto;
+  }
+  .sj2-2:hover{
+    background-color: #1e1e20;
+  }
+  .sj2-3{
+    background-image: url('../images/senjata2/bgsj2/bgsj3.png');
+    background-repeat: no-repeat;
+    margin: auto;
+  }
+  .sj2-3:hover{
+    background-color: #1e1e20;
+  }
+  .sj2-4{
+    background-image: url('../images/senjata2/bgsj2/bgsj44.png');
+    background-repeat: no-repeat;
+    margin: auto;
+  }
+  .sj2-4:hover{
+    background-color: #1e1e20;
+  }
+  .sj2-5{
+    background-image: url('../images/senjata2/bgsj2/bgsj5.png');
+    background-repeat: no-repeat;
+    margin: auto;
+    padding-top: 50px;
+  }
+  .sj2-5:hover{
+    background-color: #1e1e20;
+  }
+  .wrp-giveway{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .giveaway{
+    width: 25px;
+  }
+  .txt-ga{
+    display: flex;
+    justify-content: center;
+    color: #cce2ff;
+  }
+  .wrp-buy{
+    border: 1px solid #e4ae39;
+    color: #cce2ff;
+    display: flex;
+    justify-content: center;
+    border-radius: 17px;
+    /* text-align: center; */
+    /* padding:5px; */
+    padding-top: 10px;
+  }
+  .wrp-buy:hover{
+    background-color: #ecc214;
+    color: black;
+  }
+  /* .wrp-buy.harga:hover{
+    color: black;
+  } */
+  .harga{
+    color:#fde5b1;
+    margin-left: 5px;
+  }  
+  .img-right{
+    transform: scaleX(-1);
+  }
+  .wrp-giveway{
+    animation-name: example;
+  }
+  @keyframes example {
+    from {top: 0px; background-color: yellow;}
+    to {top: 10px;}
+  }

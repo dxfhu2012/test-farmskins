@@ -1,0 +1,136 @@
+.head-wrp{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .language{
+    display: flex;
+    color: #cce2ff;
+  }
+  .chs-language{
+    margin-right:5px;
+    margin: auto;
+  }
+  /* Reset Select */
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: #1c1e26;
+    background-image: none;
+  }
+  /* Remove IE arrow */
+  select::-ms-expand {
+    display: none;
+  }
+  /* Custom Select */
+  .select {
+    position: relative;
+    display: flex;
+    width: 90px;
+    line-height: 3;
+    background: #1c1e26;
+    overflow: hidden;
+    border-radius: .25em;
+  }
+  select {
+    flex: 1;
+    /* padding: 0 .5em; */
+    color: #fff;
+    cursor: pointer;
+  }
+  /* Arrow */
+  .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #1c1e26;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+  }
+  /* Transition */
+  .select:hover::after {
+    color: #f39c12;
+  }
+  
+  
+  .social-media{
+    display: flex;
+    color: #cce2ff;
+    /* margin: auto; */
+  }
+  .social-media p {
+    margin: auto;
+  }
+  .lk-scmd{
+  margin: auto;
+  border-radius: 50%;
+  }
+  .lk-scmd img{
+    border-radius: 50%;
+    margin-left: 5px;
+  }
+  .wrp-share{
+    display: flex;
+  }
+  .share-fb{
+   display: flex;
+   display: flex;
+   background-color: #3b5998;
+   color: #fff;
+   border-radius: 3px;
+   min-height: 20px;
+   padding-top: 5px;
+   padding-right: 7px;
+   padding-bottom: 0px;
+   padding-left: 7px;
+   font-size: 11px;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 12px;
+   font-weight: 700;
+   text-transform: none;
+   margin: auto;
+  }
+  .share-fb p{
+    margin: auto;
+  }
+  .share-fb img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  .share-twt{
+    display: flex;
+    background-color: #00aced;
+    color: #fff;
+    border-radius: 3px;
+    min-height: 20px;
+    padding-top: 5px;
+    padding-right: 7px;
+    padding-bottom: 0px;
+    padding-left: 7px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 12px;
+    font-weight: 700;
+    text-transform: none;
+    margin: auto;
+    margin-left: 5px;
+   }
+   .share-twt p{
+     margin: auto;
+   }
+   .share-twt img{
+     width: 20px;
+     height: 20px;   
+   }

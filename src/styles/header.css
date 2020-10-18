@@ -1,0 +1,51 @@
+.logo-fs{
+    margin-top: 20px;
+  }
+  .logo-fs img{
+     width: 200px;
+  }
+  .wrp-hdr{
+    display: flex;
+    justify-content: space-between;
+    background-image: url("../images/ct5.jpg");
+    height: 150px;
+    background-size: 400px;
+    padding: auto;
+  }
+  .menu-nav{
+    display: flex;
+    height:75px;
+    margin-top: 25px;
+  }
+  
+  .nav1{
+   box-shadow: 0px 3px 0px 0px  #ecc214;
+   color: #fff;
+   margin-left:10px;
+   background-color: #1c1e26;
+   border-radius: 5px;
+   padding-top: 15px;
+   padding-left: 10px;
+   padding-right: 10px;
+  }
+  .nav1:hover{
+    background-color: #30323a;
+    color: #ecc214;
+  }
+  .img-nav img{
+    width: 25px;
+    height: 25px;
+  }
+  .signsteam{
+    color: #fff;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #7ba635;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+   }
+   .img-nav{
+    display: flex;
+    justify-content: center;
+  }

@@ -1,0 +1,54 @@
+.buysteam{
+    background-image: url('../images/background/bg3.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #cce2ff;
+  }
+  .txt-1{
+    font-size: 40px;
+    letter-spacing: 0;
+    color: #ecc214;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .subtitle{
+      font-weight: 700;
+      color: #cce2ff;
+      font-size: 15px;
+  }
+  .more-info{
+    font-size: 12px;
+    margin-top: 15;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .number123{
+    color: #fff;
+    font-weight: 700;
+    line-height: 1;
+    font-size: 35px;
+  }
+  .keykey {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 30px;
+    height: 30px;
+  }
+  .wrp-btnyl{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    padding: 10px;
+    background-color: #ecc214;
+    color: #1c1e26;
+    border-radius: 5px;
+  }
+.wrp-btnyl p{
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.wrp-btnyl:hover{
+  background-color: #b8981a;
+}
